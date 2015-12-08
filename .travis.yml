@@ -7,7 +7,7 @@ python:
   - "3.4"
   - "3.5"
 env:
-  - PEEWEE_TEST_BACKEND=sqlite
+  #- PEEWEE_TEST_BACKEND=sqlite
   - PEEWEE_TEST_BACKEND=postgresql
 services:
   - postgres
